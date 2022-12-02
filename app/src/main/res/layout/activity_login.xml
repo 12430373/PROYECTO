@@ -14,12 +14,13 @@ tools:context=".LoginActivity">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="center"
             android:layout_weight="0.6">
 
+
             <ImageView
-                android:layout_margin="60dp"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/imageView_layoutHeigth"
                 android:src="@drawable/infogram"/>
 
         </RelativeLayout>
@@ -60,6 +61,28 @@ tools:context=".LoginActivity">
                 android:text="@string/button_text"
                 android:layout_marginTop="@dimen/login_marginTop"
                 android:theme="@style/RaiseButtonDark"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/no_tienes_cuenta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_tienes_cuenta"
+                    android:textColor="@color/textView_textColor"
+                    android:textSize="@dimen/textView_textSize"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/crea_una_aqui"
+                    android:textColor="@color/textView_textColor"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/textView_textSize"
+                    android:onClick="goCreateAccount"/>
+                    android:layout_toRightOf="@id/no_tienes_cuenta"/>
+            </RelativeLayout>
 
         </LinearLayout>
     </LinearLayout>
