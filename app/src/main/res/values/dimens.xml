@@ -7,4 +7,5 @@
     <dimen name="imageView_layoutHeigth">150dp</dimen>
     <dimen name="textView_textSize">18sp</dimen>
     <dimen name="padding_create_account">40dp</dimen>
+    <dimen name="marginTop_create_account">marginTop_create_account</dimen>
 </resources>

@@ -58,8 +58,8 @@ tools:context=".LoginActivity">
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/button_text"
                 android:layout_marginTop="@dimen/login_marginTop"
+                android:text="@string/Button_text"
                 android:theme="@style/RaiseButtonDark"/>
             <RelativeLayout
                 android:layout_width="match_parent"

@@ -10,4 +10,8 @@
     <string name="Correo">Correo</string>
     <string name="Usuario">Usuario</string>
     <string name="Contraseña">Contraseña</string>
+    <string name="Confirme_Contraseña">Confirme_Contraseña</string>
+    <string name="button_text_create_acccount">UNETE</string>
+    <string name="Button_texT">LOGIN</string>
+    <string name="Button_text">LOGIN</string>
 </resources>
