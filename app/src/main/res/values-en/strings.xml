@@ -15,4 +15,7 @@
     <string name="Button_texT">LOGIN</string>
     <string name="Button_text">LOGIN</string>
     <string name="titulo_crear_cuenta">\"crer cuenta \"</string>
+    <string name="hace_cardview">hace_cardview</string>
+    <string name="dias_cardview"> " 4 dias"</string>
+    <string name="me_gusta_cardview">10 me gusta</string>
 </resources>

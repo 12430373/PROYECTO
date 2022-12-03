@@ -6,7 +6,7 @@
     <string name="no_tienes_cuenta">" ¿no_tienes_cuenta? "</string>
     <string name="crea_una_aqui">crea una aqui</string>
     <string name="correo">correo</string>
-    <string name="Nombre">Nombre</string>
+    <string name="Nombre" translatable="false">Nombre</string>
     <string name="Correo">Correo</string>
     <string name="Usuario">Usuario</string>
     <string name="Contraseña">Contraseña</string>
@@ -15,4 +15,8 @@
     <string name="Button_texT">LOGIN</string>
     <string name="Button_text">LOGIN</string>
     <string name="titulo_crear_cuenta">\"crer cuenta \"</string>
+    <string name="carlos_vargas_cardview" translatable="false">Carlos_vargas</string>
+    <string name="hace_cardview">hace_cardview</string>
+    <string name="dias_cardview"> " 4 dias"</string>
+    <string name="me_gusta_cardview">10 me gusta</string>
 </resources>

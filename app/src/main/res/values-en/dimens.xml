@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="marginTop_create_account">marginTop_create_account</dimen>
+    <dimen name="corner_radius_cardview">20dp</dimen>
+    <dimen name="margin_cardview">10dp</dimen>
 </resources>
