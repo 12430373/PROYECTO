@@ -14,4 +14,5 @@
     <string name="button_text_create_acccount">UNETE</string>
     <string name="Button_texT">LOGIN</string>
     <string name="Button_text">LOGIN</string>
+    <string name="titulo_crear_cuenta">\"crer cuenta \"</string>
 </resources>
