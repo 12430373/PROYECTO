@@ -1,9 +1,9 @@
 package com.sanchez.infogram;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
-import android.widget.Toolbar;
 
 public class CreateAccountActivity extends AppCompatActivity {
 
@@ -13,7 +13,7 @@ public class CreateAccountActivity extends AppCompatActivity {
         setContentView(R.layout.activity_create_account);
         showToolBar( getString(R.string.titulo_crear_cuenta), true);
     }
-    public void showToolBar(String titulo, boolean botonSubir){
+    public void showToolBar(String titulo,boolean botonSubir){
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
